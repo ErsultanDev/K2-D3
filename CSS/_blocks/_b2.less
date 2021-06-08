@@ -1,0 +1,113 @@
+// main: ..//style.less
+
+.b2 {
+    padding: 90px 0;
+    background: url(.././images/dest/b2bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .b2_wrapper {
+        width: 700px;
+        margin: 0 auto;
+
+        .b2_top {
+            display: flex;
+            align-items: center;
+
+            .b2_num {
+                font-family: "MuseoSansBold";
+                color: #F04D56;
+                font-size: 9rem;
+                margin-right: 20px;
+            }
+
+            .b2_top_desc {
+
+                h2 {
+                    font-size: 21px;
+                    text-transform: uppercase;
+                    color: #F04D56;
+                    border-bottom: 2px solid #F04D56;
+                    padding-bottom: 20px;
+                }
+
+                p {
+                    padding-top: 20px;
+                    font-size: 18px;
+                    font-family: "MuseoSansLight";
+
+                    span {
+                        color: #F04D56;
+                    }
+                }
+            }
+        }
+
+        .b2_list {
+            width: 380px;
+            margin: 30px auto;
+        }
+
+        .b2_item {
+            display: flex;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            font-family: "MuseoSansBold";
+
+            .b2_item_icon {
+                margin-right: 10px;
+            }
+        }
+
+        .b2_bottom {
+            text-align: center;
+            margin-top: 50px;
+
+            p {
+                font-size: 18px;
+                font-family: "MuseoSansLight";
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                color: #F04D56;
+                font-size: 24px;
+                font-family: "MuseoSansBlack";
+
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .b2 {
+        padding: 30px 0;
+
+        .b2_wrapper {
+            width: 300px;
+            margin: 0 auto;
+
+            .b2_top {
+                .b2_top_desc {
+                    h2 {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .b2_list {
+                margin: 70px 0;
+            }
+
+            .b2_list {
+                width: auto;
+            }
+            .b2_bottom{
+                h4{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
